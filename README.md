@@ -18,9 +18,9 @@ Following libraries need to be installed:
   2. Numpy
 
 To execute the code:
-  1. Run `main.py` which is the driver of the experiments. All parameters and function call done from this script
+  1. Run `main.py` which is the driver of the experiments. All parameters and function call done from this script.
   2. To train a model change the variable `mode` in `main.py` to `train`.
-  3. Model will be saved as per parameters defined in main.py script
+  3. Model will be saved as per parameters defined in main.py script.
   4. For evaluating a saved model, change `mode` to `test` and put the name of the saved model in the variable `pathModel`.
   5. To run LIAR dataset, change the variable `dataset_name` to `LIAR` and
   6. To run LIAR-PLUS dataset then change `dataset_name` to `LIAR-PLUS`.
