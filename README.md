@@ -13,4 +13,14 @@ the architecture. For more detailed explanation of the approach read the [paper]
 
 ## How to Use
 
-Run `main.py` which is the driver of the experiments. To train a model change the variable `mode` in `main.py` to `train`. For evaluating a saved model, change `mode` to `test` and put the name of the saved model in the variable `pathModel`. To run LIAR dataset, change the variable `dataset_name` to `LIAR` and if you want to run LIAR-PLUS dataset then change `dataset_name` to `LIAR-PLUS`.
+Following libraries need to be installed:
+  1. Torch
+  2. Numpy
+
+To execute the code:
+  1. Run `main.py` which is the driver of the experiments. All parameters and function call done from this script
+  2. To train a model change the variable `mode` in `main.py` to `train`.
+  3. Model will be saved as per parameters defined in main.py script
+  4. For evaluating a saved model, change `mode` to `test` and put the name of the saved model in the variable `pathModel`.
+  5. To run LIAR dataset, change the variable `dataset_name` to `LIAR` and
+  6. To run LIAR-PLUS dataset then change `dataset_name` to `LIAR-PLUS`.
